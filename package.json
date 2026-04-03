@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "prebuild": "chmod +x node_modules/.bin/vue-cli-service",
     "build": "vue-cli-service build --skip-plugins @vue/cli-plugin-eslint"
   },
   "dependencies": {
