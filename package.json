@@ -3,9 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve --skip-plugins @vue/cli-plugin-eslint",
-    "build": "vue-cli-service build --skip-plugins @vue/cli-plugin-eslint",
-    "lint": "vue-cli-service lint"
+    "prebuild": "chmod +x node_modules/.bin/vue-cli-service",
+    "build": "vue-cli-service build --skip-plugins @vue/cli-plugin-eslint"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.2.0",
